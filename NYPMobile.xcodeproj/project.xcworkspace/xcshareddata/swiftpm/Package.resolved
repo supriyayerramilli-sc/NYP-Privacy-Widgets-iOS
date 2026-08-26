@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/didomi/didomi-ios-sdk-spm",
       "state" : {
-        "revision" : "a979e29de9b2f84ed5d243e9282ca9552305557a",
-        "version" : "2.46.0"
+        "revision" : "4150097434754d44ffbb958205e74d2cc64e5a6f",
+        "version" : "2.48.0"
       }
     }
   ],
