@@ -22,6 +22,8 @@ import Foundation
 import SwiftUI
 import CryptoKit
 import Didomi
+import OSLog
+
 
 @Observable
 final class SessionManager {
@@ -123,6 +125,8 @@ final class SessionManager {
     }
 
     static func initializeSDK() {
+        Didomi.shared.setLogLevel(minLevel: OSLogType.debug.rawValue)
+        
         let parameters = DidomiInitializeParameters(
             apiKey: "8983bdb1-e1c7-4c63-abc3-c6e4d60ead3c",
             noticeID: "CEctn3xW",

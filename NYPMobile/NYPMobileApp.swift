@@ -65,7 +65,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         }
 
         // Re-dump the IAB strings every time the user changes consent
-        eventListener.onConsentChanged = { _ in
+        eventListener.onConsentChangedWithObject = { _ in
             AppDelegate.dumpIABStrings("consent changed")
         }
 
