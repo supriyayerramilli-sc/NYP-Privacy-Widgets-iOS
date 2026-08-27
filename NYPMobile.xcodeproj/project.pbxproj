@@ -352,7 +352,7 @@
 			repositoryURL = "https://github.com/didomi/didomi-ios-sdk-spm";
 			requirement = {
 				kind = exactVersion;
-				version = 2.48.0;
+				version = 2.46.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
