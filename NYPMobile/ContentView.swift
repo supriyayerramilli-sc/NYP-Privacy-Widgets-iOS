@@ -41,7 +41,7 @@ struct DidomiSetupView: UIViewControllerRepresentable {
 final class WebViewStore {
 
     let webView = WKWebView()
-    let pageURL = URL(string: "https://nypcprabanner.netlify.app")!
+    let pageURL = URL(string: "https://newyorkpostwebnotice.netlify.app")!
 
     // (Re)loads the page with the CURRENT consent state injected at document
     // start. Called on first load and again after a cross-device sync so the

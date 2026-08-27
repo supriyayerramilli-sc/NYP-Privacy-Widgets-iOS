@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84125C6530059FDE0036FF77 /* Didomi in Frameworks */ = {isa = PBXBuildFile; productRef = 84125C6430059FDE0036FF77 /* Didomi */; };
+		742104C4303F592C003D55C5 /* Didomi in Frameworks */ = {isa = PBXBuildFile; productRef = 742104C3303F592C003D55C5 /* Didomi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +27,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84125C6530059FDE0036FF77 /* Didomi in Frameworks */,
+				742104C4303F592C003D55C5 /* Didomi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742104C2303F592C003D55C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84125C4C30055D830036FF77 = {
 			isa = PBXGroup;
 			children = (
 				84125C5730055D830036FF77 /* NYPMobile */,
+				742104C2303F592C003D55C5 /* Frameworks */,
 				84125C5630055D830036FF77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,7 +78,7 @@
 			);
 			name = NYPMobile;
 			packageProductDependencies = (
-				84125C6430059FDE0036FF77 /* Didomi */,
+				742104C3303F592C003D55C5 /* Didomi */,
 			);
 			productName = NYPMobile;
 			productReference = 84125C5530055D830036FF77 /* NYPMobile.app */;
@@ -343,14 +351,14 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/didomi/didomi-ios-sdk-spm";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.45.0;
+				kind = exactVersion;
+				version = 2.48.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		84125C6430059FDE0036FF77 /* Didomi */ = {
+		742104C3303F592C003D55C5 /* Didomi */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 84125C6330059FDE0036FF77 /* XCRemoteSwiftPackageReference "didomi-ios-sdk-spm" */;
 			productName = Didomi;
