@@ -130,8 +130,7 @@ final class SessionManager {
         let parameters = DidomiInitializeParameters(
             apiKey: "8983bdb1-e1c7-4c63-abc3-c6e4d60ead3c",
             noticeID: "CEctn3xW",
-            countryCode: "US",
-            regionCode: "CA"
+            countryCode: "GB"
         )
         
         Didomi.shared.initialize(parameters)
